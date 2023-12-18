@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.chart-bar {
+  transition: height;
+  animation: grow 0.5s linear forwards;
+}
+
+@keyframes grow {
+  0% {
+    height: 0%;
+  }
+}
